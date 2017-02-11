@@ -33,4 +33,12 @@ set(SOURCE_FILES
         Main/Record/source/MyDB_Record.cc
         Main/RecordTest/source/RecordQUnit.cc)
 
+include_directories(
+        Main/BufferMgr/headers
+        Main/Catalog/headers
+        Main/DatabaseTable/headers
+        Main/Qunit/headers
+        Main/Record/headers
+)
+
 add_executable(A2 ${SOURCE_FILES})

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/liufang/Documents/Courses/comp530/A2/A2
+CMAKE_SOURCE_DIR = /Users/liufang/Documents/Courses/comp530/530HW2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/A2.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/A2.dir/flags.make
 
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o: ../Main/BufferMgr/source/MyDB_BufferManager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o -c /Users/liufang/Documents/Courses/comp530/A2/A2/Main/BufferMgr/source/MyDB_BufferManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o -c /Users/liufang/Documents/Courses/comp530/530HW2/Main/BufferMgr/source/MyDB_BufferManager.cc
 
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/A2/A2/Main/BufferMgr/source/MyDB_BufferManager.cc > CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/530HW2/Main/BufferMgr/source/MyDB_BufferManager.cc > CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.i
 
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/A2/A2/Main/BufferMgr/source/MyDB_BufferManager.cc -o CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/530HW2/Main/BufferMgr/source/MyDB_BufferManager.cc -o CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.s
 
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o.provides.build: 
 
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o: ../Main/BufferMgr/source/MyDB_Page.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o -c /Users/liufang/Documents/Courses/comp530/A2/A2/Main/BufferMgr/source/MyDB_Page.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o -c /Users/liufang/Documents/Courses/comp530/530HW2/Main/BufferMgr/source/MyDB_Page.cc
 
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/A2/A2/Main/BufferMgr/source/MyDB_Page.cc > CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/530HW2/Main/BufferMgr/source/MyDB_Page.cc > CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.i
 
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/A2/A2/Main/BufferMgr/source/MyDB_Page.cc -o CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/530HW2/Main/BufferMgr/source/MyDB_Page.cc -o CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.s
 
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o.provides.build: CMakeFile
 
 CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/BufferTest/source/BufferQUnit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o -c /Users/liufang/Documents/Courses/comp530/A2/A2/Main/BufferTest/source/BufferQUnit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o -c /Users/liufang/Documents/Courses/comp530/530HW2/Main/BufferTest/source/BufferQUnit.cc
 
 CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/A2/A2/Main/BufferTest/source/BufferQUnit.cc > CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/530HW2/Main/BufferTest/source/BufferQUnit.cc > CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.i
 
 CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/A2/A2/Main/BufferTest/source/BufferQUnit.cc -o CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/530HW2/Main/BufferTest/source/BufferQUnit.cc -o CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.s
 
 CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o.provides.build: CMakeF
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o: ../Main/Catalog/source/MyDB_Catalog.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o -c /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Catalog/source/MyDB_Catalog.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o -c /Users/liufang/Documents/Courses/comp530/530HW2/Main/Catalog/source/MyDB_Catalog.cc
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Catalog/source/MyDB_Catalog.cc > CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/530HW2/Main/Catalog/source/MyDB_Catalog.cc > CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.i
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Catalog/source/MyDB_Catalog.cc -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/530HW2/Main/Catalog/source/MyDB_Catalog.cc -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.s
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o.provides.build: CMakeFil
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o: ../Main/Catalog/source/MyDB_Schema.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o -c /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Catalog/source/MyDB_Schema.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o -c /Users/liufang/Documents/Courses/comp530/530HW2/Main/Catalog/source/MyDB_Schema.cc
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Catalog/source/MyDB_Schema.cc > CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/530HW2/Main/Catalog/source/MyDB_Schema.cc > CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.i
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Catalog/source/MyDB_Schema.cc -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/530HW2/Main/Catalog/source/MyDB_Schema.cc -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.s
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o.provides.build: CMakeFile
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o: ../Main/Catalog/source/MyDB_Table.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o -c /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Catalog/source/MyDB_Table.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o -c /Users/liufang/Documents/Courses/comp530/530HW2/Main/Catalog/source/MyDB_Table.cc
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Catalog/source/MyDB_Table.cc > CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/530HW2/Main/Catalog/source/MyDB_Table.cc > CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.i
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Catalog/source/MyDB_Table.cc -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/530HW2/Main/Catalog/source/MyDB_Table.cc -o CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.s
 
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: ../Main/DatabaseTable/source/MyDB_PageReaderWriter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o -c /Users/liufang/Documents/Courses/comp530/A2/A2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o -c /Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc
 
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/A2/A2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc > CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc > CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.i
 
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/A2/A2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s
 
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o.provides.
 
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/DatabaseTable/source/MyDB_TableReaderWriter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o -c /Users/liufang/Documents/Courses/comp530/A2/A2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o -c /Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc
 
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/A2/A2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc > CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc > CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.i
 
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/A2/A2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s
 
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o.provides
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o: ../Main/Record/source/MyDB_AttVal.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o -c /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Record/source/MyDB_AttVal.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o -c /Users/liufang/Documents/Courses/comp530/530HW2/Main/Record/source/MyDB_AttVal.cc
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Record/source/MyDB_AttVal.cc > CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/530HW2/Main/Record/source/MyDB_AttVal.cc > CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.i
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Record/source/MyDB_AttVal.cc -o CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/530HW2/Main/Record/source/MyDB_AttVal.cc -o CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.s
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o: ../Main/Record/source/MyDB_Record.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o -c /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Record/source/MyDB_Record.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o -c /Users/liufang/Documents/Courses/comp530/530HW2/Main/Record/source/MyDB_Record.cc
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Record/source/MyDB_Record.cc > CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/530HW2/Main/Record/source/MyDB_Record.cc > CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.i
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/A2/A2/Main/Record/source/MyDB_Record.cc -o CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/530HW2/Main/Record/source/MyDB_Record.cc -o CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.s
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o: ../Main/RecordTest/source/RecordQUnit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o -c /Users/liufang/Documents/Courses/comp530/A2/A2/Main/RecordTest/source/RecordQUnit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o -c /Users/liufang/Documents/Courses/comp530/530HW2/Main/RecordTest/source/RecordQUnit.cc
 
 CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/A2/A2/Main/RecordTest/source/RecordQUnit.cc > CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liufang/Documents/Courses/comp530/530HW2/Main/RecordTest/source/RecordQUnit.cc > CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.i
 
 CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/A2/A2/Main/RecordTest/source/RecordQUnit.cc -o CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liufang/Documents/Courses/comp530/530HW2/Main/RecordTest/source/RecordQUnit.cc -o CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.s
 
 CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o.requires:
 
@@ -351,7 +351,7 @@ A2: CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o
 A2: CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o
 A2: CMakeFiles/A2.dir/build.make
 A2: CMakeFiles/A2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable A2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable A2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/A2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -378,6 +378,6 @@ CMakeFiles/A2.dir/clean:
 .PHONY : CMakeFiles/A2.dir/clean
 
 CMakeFiles/A2.dir/depend:
-	cd /Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/liufang/Documents/Courses/comp530/A2/A2 /Users/liufang/Documents/Courses/comp530/A2/A2 /Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug /Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug /Users/liufang/Documents/Courses/comp530/A2/A2/cmake-build-debug/CMakeFiles/A2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/liufang/Documents/Courses/comp530/530HW2 /Users/liufang/Documents/Courses/comp530/530HW2 /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles/A2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/A2.dir/depend
 
