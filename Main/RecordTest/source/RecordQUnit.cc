@@ -89,7 +89,7 @@ int main () {
 
 		// now, go to the 37th page and iterate over it
 		MyDB_RecordPtr temp = supplierTable.getEmptyRecord ();
-		MyDB_RecordIteratorPtr myIter = supplierTable[allTables["supplier"]->lastPage()].getIterator (temp);
+		MyDB_RecordIteratorPtr myIter = supplierTable[36].getIterator (temp);
 		while (myIter->hasNext ()) {
 			myIter->getNext ();
 			cout << temp << "\n";
@@ -113,7 +113,7 @@ int main () {
 		int counter = 0;
 		while (myIter->hasNext ()) {
 			myIter->getNext ();
-//			cout << temp << "\n";
+			//cout << temp << "\n";
 			counter++;
 	 	}
 		QUNIT_IS_EQUAL (counter, 10000);

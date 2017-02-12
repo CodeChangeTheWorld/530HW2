@@ -11,6 +11,10 @@
 #include "MyDB_Record.h"
 #include "MyDB_RecordIterator.h"
 
+#define HEADER_SIZE (sizeof (MyDB_PageType) + sizeof (size_t))
+#define GET_TYPE(ptr) (*((MyDB_PageType *) ptr))
+#define GET_OFFSET_UNTIL_END(ptr)  (*((size_t *) (((char *) ptr) + sizeof (MyDB_PageType))))
+
 class MyDB_PageRecIterator: public MyDB_RecordIterator{
 public:
     void getNext();

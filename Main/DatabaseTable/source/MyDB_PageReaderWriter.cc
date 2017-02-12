@@ -7,7 +7,12 @@
 #include "MyDB_TableReaderWriter.h"
 
 void MyDB_PageReaderWriter :: clear () {
-    cursor=head;
+    GET_OFFSET_UNTIL_END(head) = HEADER_SIZE;
+    cursor = ((char*)head) + GET_OFFSET_UNTIL_END(head);
+    pageHandle->wroteBytes();
+    std::cout<<(char*)cursor - (char*)head<<endl;
+    std::cout<<GET_OFFSET_UNTIL_END(head)<<endl;
+    std::cout<<"locB::"<<&head<<endl;
 }
 
 MyDB_PageType MyDB_PageReaderWriter :: getType () {
@@ -16,6 +21,7 @@ MyDB_PageType MyDB_PageReaderWriter :: getType () {
 
 MyDB_RecordIteratorPtr MyDB_PageReaderWriter :: getIterator(MyDB_RecordPtr rec) {
     return make_shared<MyDB_PageRecIterator>(rec, pageHandle);
+//    return make_shared<MyDB_PageRecIterator>(rec, this);
 }
 
 void MyDB_PageReaderWriter :: setType (MyDB_PageType) {
@@ -25,21 +31,25 @@ int MyDB_PageReaderWriter::getPageSize(){
     return pageSize;
 }
 bool MyDB_PageReaderWriter :: append (MyDB_RecordPtr newrec) {
-    pageHandle->wroteBytes();
-    if(pageSize-((char*)cursor-(char*)head) < newrec->getBinarySize()){
+    //std::cout<<GET_OFFSET_UNTIL_END(head)<<endl;
+    //std::cout<<newrec->getBinarySize()<<endl;
+//    std::cout<<GET_OFFSET_UNTIL_END (head)+newrec->getBinarySize()<<endl;
+//    std::cout<<pageSize<<endl;
+    if(GET_OFFSET_UNTIL_END (head)+newrec->getBinarySize() > pageSize){
         return false;
     }
     cursor = newrec->toBinary(cursor);
+    GET_OFFSET_UNTIL_END (head) = GET_OFFSET_UNTIL_END (head) + newrec->getBinarySize();
+    pageHandle->wroteBytes();
 	return true;
 }
 MyDB_PageReaderWriter::MyDB_PageReaderWriter(MyDB_PageHandle pageHandle, size_t pageSize){
 	this->pageHandle = pageHandle;
     this->pageSize = pageSize;
     head = pageHandle->getBytes();
-//    cursor = ((char*)head)+(*((size_t *) ((char *) head)));
-//    std::cout<<(char*)cursor-(char*)head<<endl;
-//    cursor = head;
     GET_OFFSET_UNTIL_END (head) = HEADER_SIZE;
+    cursor = ((char*)head) + GET_OFFSET_UNTIL_END(head);
+    //head = ((char*)head) + HEADER_SIZE;
 }
 
 #endif

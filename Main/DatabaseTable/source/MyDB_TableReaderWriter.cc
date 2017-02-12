@@ -60,8 +60,7 @@ void MyDB_TableReaderWriter :: append (MyDB_RecordPtr record) {
 void MyDB_TableReaderWriter :: clear(){
     int id = me->lastPage();
     while(id>=0){
-        MyDB_PageReaderWriter pagerw = this->operator[]((long)id);
-        pagerw.clear();
+        this->operator[]((long)id).clear();
         id--;
     }
     me->setLastPage(-1);
