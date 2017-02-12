@@ -38,7 +38,6 @@ MyDB_RecordPtr MyDB_TableReaderWriter :: getEmptyRecord () {
 }
 
 MyDB_PageReaderWriter &MyDB_TableReaderWriter :: last () {
-    std::cout<<me->lastPage()<<endl;
 //    return this->operator[](long(me->lastPage()));
     if(me->lastPage() == -1){
         me->setLastPage(0);
@@ -49,8 +48,8 @@ MyDB_PageReaderWriter &MyDB_TableReaderWriter :: last () {
 
 
 void MyDB_TableReaderWriter :: append (MyDB_RecordPtr record) {
-	MyDB_PageReaderWriter lastpage = last();
-	if(!lastpage.append(record)){
+//	MyDB_PageReaderWriter lastpage = last();
+	if(!last().append(record)){
 		me->setLastPage(me->lastPage()+1);
         pagerwvec.push_back(MyDB_PageReaderWriter(mybuffer->getPage(me,me->lastPage()), mybuffer->getPageSize()));
 		MyDB_PageReaderWriter pagerw= this->operator[](long(me->lastPage()));
