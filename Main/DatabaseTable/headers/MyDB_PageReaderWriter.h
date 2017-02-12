@@ -3,22 +3,32 @@
 #define PAGE_RW_H
 
 #include "MyDB_PageType.h"
-#include "MyDB_TableReaderWriter.h"
+#include "MyDB_PageHandle.h"
+#include "MyDB_BufferManager.h"
+#include "MyDB_Record.h"
+#include "MyDB_RecordIterator.h"
+#include "MyDB_Table.h"
+
+//#include "MyDB_TableReaderWriter.h"
+class MyDB_PageReaderWriter;
+typedef std::shared_ptr <MyDB_PageReaderWriter> MyDB_PageReaderWriterPtr;
 
 class MyDB_PageReaderWriter {
 
 public:
 
 	// ANY OTHER METHODS YOU WANT HERE
+	MyDB_PageReaderWriter(MyDB_PageHandle handle, size_t pageSize);
 
-	// empties out the contents of this page, so that it has no records in it
+
+    // empties out the contents of this page, so that it has no records in it
 	// the type of the page is set to MyDB_PageType :: RegularPage
 	void clear ();	
 
 	// return an itrator over this page... each time returnVal->next () is
 	// called, the resulting record will be placed into the record pointed to
 	// by iterateIntoMe
-	MyDB_RecordIteratorPtr getIterator (MyDB_RecordPtr iterateIntoMe);
+	MyDB_RecordIteratorPtr getIterator(MyDB_RecordPtr iterateIntoMe);
 
 	// appends a record to this page... return false is the append fails because
 	// there is not enough space on the page; otherwise, return true
@@ -30,10 +40,16 @@ public:
 
 	// sets the type of the page
 	void setType (MyDB_PageType toMe);
-	
-private:
+	int getPageSize();
 
+private:
 	// ANYTHING ELSE YOU WANT HERE
+	MyDB_BufferManagerPtr bufManager;
+	MyDB_PageHandle pageHandle;
+    int recordSize;
+    size_t pageSize;
+	void* cursor;
+	void* head;
 };
 
 #endif

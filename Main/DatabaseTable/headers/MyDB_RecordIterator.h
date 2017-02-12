@@ -13,7 +13,6 @@ class MyDB_RecordIterator;
 typedef shared_ptr <MyDB_RecordIterator> MyDB_RecordIteratorPtr;
 
 // DO NOT MODIFY!
-
 class MyDB_RecordIterator {
 
 public:

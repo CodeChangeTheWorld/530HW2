@@ -27,20 +27,6 @@ CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o: ../Main/Catalog/headers/
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o: ../Main/Record/headers/MyDB_AttVal.h
 CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o: ../Main/BufferMgr/source/MyDB_Page.cc
 
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/BufferMgr/headers/CheckLRU.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/BufferMgr/headers/MyDB_BufferManager.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/BufferMgr/headers/MyDB_Page.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/BufferMgr/headers/MyDB_PageHandle.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/BufferMgr/headers/PageCompare.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/BufferMgr/headers/TableCompare.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/Catalog/headers/MyDB_AttType.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/Catalog/headers/MyDB_Catalog.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/Catalog/headers/MyDB_Schema.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/Catalog/headers/MyDB_Table.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/Qunit/headers/QUnit.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/Record/headers/MyDB_AttVal.h
-CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o: ../Main/BufferTest/source/BufferQUnit.cc
-
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o: ../Main/Catalog/headers/MyDB_AttType.h
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o: ../Main/Catalog/headers/MyDB_Catalog.h
 CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o: ../Main/Catalog/headers/MyDB_Schema.h
@@ -74,11 +60,24 @@ CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: ../Main/
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: ../Main/Catalog/headers/MyDB_Schema.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: ../Main/Catalog/headers/MyDB_Table.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: ../Main/DatabaseTable/headers/MyDB_PageReaderWriter.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: ../Main/DatabaseTable/headers/MyDB_PageRecIterator.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: ../Main/DatabaseTable/headers/MyDB_RecordIterator.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: ../Main/DatabaseTable/headers/MyDB_TableReaderWriter.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: ../Main/Record/headers/MyDB_AttVal.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: ../Main/Record/headers/MyDB_Record.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o: ../Main/DatabaseTable/source/MyDB_PageReaderWriter.cc
+
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/BufferMgr/headers/MyDB_Page.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/BufferMgr/headers/MyDB_PageHandle.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/Catalog/headers/MyDB_AttType.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/Catalog/headers/MyDB_Catalog.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/Catalog/headers/MyDB_Schema.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/Catalog/headers/MyDB_Table.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/DatabaseTable/headers/MyDB_PageRecIterator.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/DatabaseTable/headers/MyDB_RecordIterator.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/Record/headers/MyDB_AttVal.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/Record/headers/MyDB_Record.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/DatabaseTable/source/MyDB_PageRecIterator.cc
 
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/BufferMgr/headers/CheckLRU.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/BufferMgr/headers/MyDB_BufferManager.h
@@ -92,11 +91,33 @@ CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/Catalog/headers/MyDB_Schema.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/Catalog/headers/MyDB_Table.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/DatabaseTable/headers/MyDB_PageReaderWriter.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/DatabaseTable/headers/MyDB_PageRecIterator.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/DatabaseTable/headers/MyDB_RecordIterator.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/DatabaseTable/headers/MyDB_TableReaderWriter.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/DatabaseTable/headers/MyDB_TableRecIterator.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/Record/headers/MyDB_AttVal.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/Record/headers/MyDB_Record.h
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/DatabaseTable/source/MyDB_TableReaderWriter.cc
+
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/BufferMgr/headers/CheckLRU.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/BufferMgr/headers/MyDB_BufferManager.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/BufferMgr/headers/MyDB_Page.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/BufferMgr/headers/MyDB_PageHandle.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/BufferMgr/headers/PageCompare.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/BufferMgr/headers/TableCompare.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/Catalog/headers/MyDB_AttType.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/Catalog/headers/MyDB_Catalog.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/Catalog/headers/MyDB_PageType.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/Catalog/headers/MyDB_Schema.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/Catalog/headers/MyDB_Table.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/DatabaseTable/headers/MyDB_PageReaderWriter.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/DatabaseTable/headers/MyDB_PageRecIterator.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/DatabaseTable/headers/MyDB_RecordIterator.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/DatabaseTable/headers/MyDB_TableReaderWriter.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/DatabaseTable/headers/MyDB_TableRecIterator.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/Record/headers/MyDB_AttVal.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/Record/headers/MyDB_Record.h
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/DatabaseTable/source/MyDB_TableRecIterator.cc
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o: ../Main/Record/headers/MyDB_AttVal.h
 CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o: ../Main/Record/source/MyDB_AttVal.cc

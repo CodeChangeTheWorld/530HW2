@@ -116,9 +116,6 @@
 		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/BufferMgr/source/MyDB_Page.cc">
 			<Option target="A2"/>
 		</Unit>
-		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/BufferTest/source/BufferQUnit.cc">
-			<Option target="A2"/>
-		</Unit>
 		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/Catalog/headers/MyDB_AttType.h">
 			<Option target="A2"/>
 		</Unit>
@@ -146,16 +143,28 @@
 		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/headers/MyDB_PageReaderWriter.h">
 			<Option target="A2"/>
 		</Unit>
+		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/headers/MyDB_PageRecIterator.h">
+			<Option target="A2"/>
+		</Unit>
 		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/headers/MyDB_RecordIterator.h">
 			<Option target="A2"/>
 		</Unit>
 		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/headers/MyDB_TableReaderWriter.h">
 			<Option target="A2"/>
 		</Unit>
+		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/headers/MyDB_TableRecIterator.h">
+			<Option target="A2"/>
+		</Unit>
 		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc">
 			<Option target="A2"/>
 		</Unit>
+		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/source/MyDB_PageRecIterator.cc">
+			<Option target="A2"/>
+		</Unit>
 		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/DatabaseTable/source/MyDB_TableRecIterator.cc">
 			<Option target="A2"/>
 		</Unit>
 		<Unit filename="/Users/liufang/Documents/Courses/comp530/530HW2/Main/Qunit/headers/QUnit.h">

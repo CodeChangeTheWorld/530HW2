@@ -63,12 +63,12 @@ void MyDB_Schema :: fromCatalog (string tableName, MyDB_CatalogPtr catalog) {
 			exit (1);
 		}
 	}
+
 }
 
 void MyDB_Schema :: appendAtt (pair <string, MyDB_AttTypePtr> addAtt) {
 	allAtts.push_back (addAtt);
 }
-
 void MyDB_Schema :: putInCatalog (string tableName, MyDB_CatalogPtr catalog) {
 
 	// write out the attributes

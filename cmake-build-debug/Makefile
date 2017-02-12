@@ -177,33 +177,6 @@ Main/BufferMgr/source/MyDB_Page.cc.s:
 	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.s
 .PHONY : Main/BufferMgr/source/MyDB_Page.cc.s
 
-Main/BufferTest/source/BufferQUnit.o: Main/BufferTest/source/BufferQUnit.cc.o
-
-.PHONY : Main/BufferTest/source/BufferQUnit.o
-
-# target to build an object file
-Main/BufferTest/source/BufferQUnit.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o
-.PHONY : Main/BufferTest/source/BufferQUnit.cc.o
-
-Main/BufferTest/source/BufferQUnit.i: Main/BufferTest/source/BufferQUnit.cc.i
-
-.PHONY : Main/BufferTest/source/BufferQUnit.i
-
-# target to preprocess a source file
-Main/BufferTest/source/BufferQUnit.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.i
-.PHONY : Main/BufferTest/source/BufferQUnit.cc.i
-
-Main/BufferTest/source/BufferQUnit.s: Main/BufferTest/source/BufferQUnit.cc.s
-
-.PHONY : Main/BufferTest/source/BufferQUnit.s
-
-# target to generate assembly for a file
-Main/BufferTest/source/BufferQUnit.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.s
-.PHONY : Main/BufferTest/source/BufferQUnit.cc.s
-
 Main/Catalog/source/MyDB_Catalog.o: Main/Catalog/source/MyDB_Catalog.cc.o
 
 .PHONY : Main/Catalog/source/MyDB_Catalog.o
@@ -312,6 +285,33 @@ Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s:
 	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s
 .PHONY : Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s
 
+Main/DatabaseTable/source/MyDB_PageRecIterator.o: Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o
+
+.PHONY : Main/DatabaseTable/source/MyDB_PageRecIterator.o
+
+# target to build an object file
+Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o:
+	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o
+.PHONY : Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o
+
+Main/DatabaseTable/source/MyDB_PageRecIterator.i: Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i
+
+.PHONY : Main/DatabaseTable/source/MyDB_PageRecIterator.i
+
+# target to preprocess a source file
+Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i:
+	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i
+.PHONY : Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i
+
+Main/DatabaseTable/source/MyDB_PageRecIterator.s: Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s
+
+.PHONY : Main/DatabaseTable/source/MyDB_PageRecIterator.s
+
+# target to generate assembly for a file
+Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s:
+	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s
+.PHONY : Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s
+
 Main/DatabaseTable/source/MyDB_TableReaderWriter.o: Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o
 
 .PHONY : Main/DatabaseTable/source/MyDB_TableReaderWriter.o
@@ -338,6 +338,33 @@ Main/DatabaseTable/source/MyDB_TableReaderWriter.s: Main/DatabaseTable/source/My
 Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s:
 	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s
 .PHONY : Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s
+
+Main/DatabaseTable/source/MyDB_TableRecIterator.o: Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o
+
+.PHONY : Main/DatabaseTable/source/MyDB_TableRecIterator.o
+
+# target to build an object file
+Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o:
+	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o
+.PHONY : Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o
+
+Main/DatabaseTable/source/MyDB_TableRecIterator.i: Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i
+
+.PHONY : Main/DatabaseTable/source/MyDB_TableRecIterator.i
+
+# target to preprocess a source file
+Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i:
+	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i
+.PHONY : Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i
+
+Main/DatabaseTable/source/MyDB_TableRecIterator.s: Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s
+
+.PHONY : Main/DatabaseTable/source/MyDB_TableRecIterator.s
+
+# target to generate assembly for a file
+Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s:
+	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s
+.PHONY : Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s
 
 Main/Record/source/MyDB_AttVal.o: Main/Record/source/MyDB_AttVal.cc.o
 
@@ -435,9 +462,6 @@ help:
 	@echo "... Main/BufferMgr/source/MyDB_Page.o"
 	@echo "... Main/BufferMgr/source/MyDB_Page.i"
 	@echo "... Main/BufferMgr/source/MyDB_Page.s"
-	@echo "... Main/BufferTest/source/BufferQUnit.o"
-	@echo "... Main/BufferTest/source/BufferQUnit.i"
-	@echo "... Main/BufferTest/source/BufferQUnit.s"
 	@echo "... Main/Catalog/source/MyDB_Catalog.o"
 	@echo "... Main/Catalog/source/MyDB_Catalog.i"
 	@echo "... Main/Catalog/source/MyDB_Catalog.s"
@@ -450,9 +474,15 @@ help:
 	@echo "... Main/DatabaseTable/source/MyDB_PageReaderWriter.o"
 	@echo "... Main/DatabaseTable/source/MyDB_PageReaderWriter.i"
 	@echo "... Main/DatabaseTable/source/MyDB_PageReaderWriter.s"
+	@echo "... Main/DatabaseTable/source/MyDB_PageRecIterator.o"
+	@echo "... Main/DatabaseTable/source/MyDB_PageRecIterator.i"
+	@echo "... Main/DatabaseTable/source/MyDB_PageRecIterator.s"
 	@echo "... Main/DatabaseTable/source/MyDB_TableReaderWriter.o"
 	@echo "... Main/DatabaseTable/source/MyDB_TableReaderWriter.i"
 	@echo "... Main/DatabaseTable/source/MyDB_TableReaderWriter.s"
+	@echo "... Main/DatabaseTable/source/MyDB_TableRecIterator.o"
+	@echo "... Main/DatabaseTable/source/MyDB_TableRecIterator.i"
+	@echo "... Main/DatabaseTable/source/MyDB_TableRecIterator.s"
 	@echo "... Main/Record/source/MyDB_AttVal.o"
 	@echo "... Main/Record/source/MyDB_AttVal.i"
 	@echo "... Main/Record/source/MyDB_AttVal.s"

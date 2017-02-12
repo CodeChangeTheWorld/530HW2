@@ -7,6 +7,7 @@
 #include "MyDB_Record.h"
 #include "MyDB_RecordIterator.h"
 #include "MyDB_Table.h"
+#include "MyDB_PageReaderWriter.h"
 
 // create a smart pointer for the catalog
 using namespace std;
@@ -45,11 +46,18 @@ public:
 	MyDB_PageReaderWriter &operator [] (size_t i);
 
         // access the last page in the file
-        MyDB_PageReaderWriter &last ();
+		MyDB_PageReaderWriter &last ();
+
+	void clear();
+
+    long getLastPageID();
 
 private:
 
 	// ANYTHING YOU NEED HERE
+	MyDB_TablePtr me;
+	MyDB_BufferManagerPtr mybuffer;
+	MyDB_PageReaderWriterPtr pagerw;
 };
 
 #endif
