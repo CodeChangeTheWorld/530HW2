@@ -15,9 +15,9 @@ MyDB_PageRecIterator::MyDB_PageRecIterator(MyDB_RecordPtr record, MyDB_PageHandl
 }
 
 void MyDB_PageRecIterator::getNext(){
-//    if(hasNext()){
+    if(hasNext()){
         cursor = currentRec->fromBinary(cursor);
-//    }
+    }
 }
 
 bool MyDB_PageRecIterator::hasNext(){
