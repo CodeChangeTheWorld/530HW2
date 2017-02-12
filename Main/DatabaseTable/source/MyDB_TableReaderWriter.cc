@@ -16,14 +16,18 @@ using namespace std;
 MyDB_TableReaderWriter :: MyDB_TableReaderWriter (MyDB_TablePtr toMe, MyDB_BufferManagerPtr bufferManager) {
 	me = toMe;
 	mybuffer = bufferManager;
+    for(long i = 0; i <= me->lastPage(); i++){
+        pagerwvec.push_back(MyDB_PageReaderWriter(mybuffer->getPage(me,i), mybuffer->getPageSize()));
+    }
 }
 
 MyDB_PageReaderWriter &MyDB_TableReaderWriter :: operator [] (size_t id) {
 //	static MyDB_PageReaderWriter temp;
 //	return temp;
-	MyDB_PageHandle page = mybuffer->getPage(me,(long)id);
-	pagerw = make_shared<MyDB_PageReaderWriter>(page,mybuffer->getPageSize());
-	return *pagerw.get();
+//	MyDB_PageHandle page = mybuffer->getPage(me,(long)id);
+//	pagerw = make_shared<MyDB_PageReaderWriter>(page,mybuffer->getPageSize());
+//	return *pagerw.get();
+    return pagerwvec[id];
 
 }
 
@@ -34,6 +38,12 @@ MyDB_RecordPtr MyDB_TableReaderWriter :: getEmptyRecord () {
 }
 
 MyDB_PageReaderWriter &MyDB_TableReaderWriter :: last () {
+    std::cout<<me->lastPage()<<endl;
+//    return this->operator[](long(me->lastPage()));
+    if(me->lastPage() == -1){
+        me->setLastPage(0);
+        pagerwvec.push_back(MyDB_PageReaderWriter(mybuffer->getPage(me,0), mybuffer->getPageSize()));
+    }
     return this->operator[](long(me->lastPage()));
 }
 
@@ -42,8 +52,8 @@ void MyDB_TableReaderWriter :: append (MyDB_RecordPtr record) {
 	MyDB_PageReaderWriter lastpage = last();
 	if(!lastpage.append(record)){
 		me->setLastPage(me->lastPage()+1);
-		MyDB_PageHandle page = mybuffer->getPage(me,(long)me->lastPage());
-		MyDB_PageReaderWriter pagerw= MyDB_PageReaderWriter(page,mybuffer->getPageSize());
+        pagerwvec.push_back(MyDB_PageReaderWriter(mybuffer->getPage(me,me->lastPage()), mybuffer->getPageSize()));
+		MyDB_PageReaderWriter pagerw= this->operator[](long(me->lastPage()));
 		pagerw.append(record);
 	}
 }
@@ -55,7 +65,7 @@ void MyDB_TableReaderWriter :: clear(){
         pagerw.clear();
         id--;
     }
-    me->setLastPage(0);
+    me->setLastPage(-1);
 }
 
 void MyDB_TableReaderWriter :: loadFromTextFile (string pth) {
@@ -71,15 +81,17 @@ void MyDB_TableReaderWriter :: loadFromTextFile (string pth) {
         exit(EXIT_FAILURE);
 
     MyDB_RecordPtr record = this-> getEmptyRecord();
+    string s;
     while ((read = getline(&line, &len, fp)) != -1) {
-        record->fromString(line);
+        s = line;
+        s.erase(s.length()-1);
+        record->fromString(s);
         this->append(record);
     }
 
     fclose(fp);
     if (line)
         free(line);
-    exit(EXIT_SUCCESS);
 
 
 }

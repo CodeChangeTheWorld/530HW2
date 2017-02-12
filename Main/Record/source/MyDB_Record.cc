@@ -753,7 +753,7 @@ size_t MyDB_Record :: getBinarySize () {
 void *MyDB_Record :: toBinary (void *toHere) {
 	for (MyDB_AttValPtr temp : values) {
 		toHere = temp->toBinary (toHere);
-	}		
+	}
 	return toHere;
 }
 

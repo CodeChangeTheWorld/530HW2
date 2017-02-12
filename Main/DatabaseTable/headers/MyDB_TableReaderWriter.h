@@ -58,6 +58,7 @@ private:
 	MyDB_TablePtr me;
 	MyDB_BufferManagerPtr mybuffer;
 	MyDB_PageReaderWriterPtr pagerw;
+    vector <MyDB_PageReaderWriter> pagerwvec;
 };
 
 #endif

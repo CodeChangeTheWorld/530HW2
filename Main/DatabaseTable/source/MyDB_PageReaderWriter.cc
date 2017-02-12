@@ -25,6 +25,8 @@ int MyDB_PageReaderWriter::getPageSize(){
     return pageSize;
 }
 bool MyDB_PageReaderWriter :: append (MyDB_RecordPtr newrec) {
+    std::cout<<pageSize<<endl;
+    std::cout<<(char*)cursor - (char*)head<<endl;
     if(pageSize-((char*)cursor-(char*)head) < newrec->getBinarySize()){
         return false;
     }
