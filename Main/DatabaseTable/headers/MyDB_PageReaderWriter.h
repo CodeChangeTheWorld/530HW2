@@ -9,6 +9,10 @@
 #include "MyDB_RecordIterator.h"
 #include "MyDB_Table.h"
 
+#define HEADER_SIZE (sizeof (MyDB_PageType) + sizeof (size_t))
+#define GET_TYPE(ptr) (*((MyDB_PageType *) ptr))
+#define GET_OFFSET_UNTIL_END(ptr)  (*((size_t *) (((char *) ptr) + sizeof (MyDB_PageType))))
+
 //#include "MyDB_TableReaderWriter.h"
 class MyDB_PageReaderWriter;
 typedef std::shared_ptr <MyDB_PageReaderWriter> MyDB_PageReaderWriterPtr;

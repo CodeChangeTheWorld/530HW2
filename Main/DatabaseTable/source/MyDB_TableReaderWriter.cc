@@ -91,8 +91,6 @@ void MyDB_TableReaderWriter :: loadFromTextFile (string pth) {
     fclose(fp);
     if (line)
         free(line);
-
-
 }
 
 long MyDB_TableReaderWriter::getLastPageID() {

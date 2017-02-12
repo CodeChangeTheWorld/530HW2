@@ -38,7 +38,8 @@ MyDB_PageReaderWriter::MyDB_PageReaderWriter(MyDB_PageHandle pageHandle, size_t 
     head = pageHandle->getBytes();
 //    cursor = ((char*)head)+(*((size_t *) ((char *) head)));
 //    std::cout<<(char*)cursor-(char*)head<<endl;
-    cursor = head;
+//    cursor = head;
+    GET_OFFSET_UNTIL_END (head) = HEADER_SIZE;
 }
 
 #endif
