@@ -48,12 +48,12 @@ MyDB_PageReaderWriter &MyDB_TableReaderWriter :: last () {
 
 
 void MyDB_TableReaderWriter :: append (MyDB_RecordPtr record) {
-//	MyDB_PageReaderWriter lastpage = last();
 	if(!last().append(record)){
 		me->setLastPage(me->lastPage()+1);
         pagerwvec.push_back(MyDB_PageReaderWriter(mybuffer->getPage(me,me->lastPage()), mybuffer->getPageSize()));
-		MyDB_PageReaderWriter pagerw= this->operator[](long(me->lastPage()));
-		pagerw.append(record);
+//		MyDB_PageReaderWriter pagerw= this->operator[](long(me->lastPage()));
+//		pagerw.append(record);
+        this->operator[](long(me->lastPage())).append(record);
 	}
 }
 

@@ -25,6 +25,7 @@ int MyDB_PageReaderWriter::getPageSize(){
     return pageSize;
 }
 bool MyDB_PageReaderWriter :: append (MyDB_RecordPtr newrec) {
+    pageHandle->wroteBytes();
     if(pageSize-((char*)cursor-(char*)head) < newrec->getBinarySize()){
         return false;
     }
@@ -34,8 +35,10 @@ bool MyDB_PageReaderWriter :: append (MyDB_RecordPtr newrec) {
 MyDB_PageReaderWriter::MyDB_PageReaderWriter(MyDB_PageHandle pageHandle, size_t pageSize){
 	this->pageHandle = pageHandle;
     this->pageSize = pageSize;
-    head= pageHandle->getBytes();
-    cursor = head;
+    head = pageHandle->getBytes();
+//    cursor = ((char*)head)+(*((size_t *) ((char *) head)));
+//    std::cout<<(char*)cursor-(char*)head<<endl;
+  cursor = head;
 }
 
 #endif

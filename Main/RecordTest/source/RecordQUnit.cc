@@ -89,7 +89,7 @@ int main () {
 
 		// now, go to the 37th page and iterate over it
 		MyDB_RecordPtr temp = supplierTable.getEmptyRecord ();
-		MyDB_RecordIteratorPtr myIter = supplierTable[36].getIterator (temp);
+		MyDB_RecordIteratorPtr myIter = supplierTable[35].getIterator (temp);
 		while (myIter->hasNext ()) {
 			myIter->getNext ();
 			cout << temp << "\n";
