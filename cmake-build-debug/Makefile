@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/liufang/Documents/Courses/comp530/530HW2
+CMAKE_SOURCE_DIR = "/Users/cj/Documents/17 Spring/comp 530/assignments/assign2/A2/530HW2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/cj/Documents/17 Spring/comp 530/assignments/assign2/A2/530HW2/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/cj/Documents/17 Spring/comp 530/assignments/assign2/A2/530HW2/cmake-build-debug/CMakeFiles" "/Users/cj/Documents/17 Spring/comp 530/assignments/assign2/A2/530HW2/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/cj/Documents/17 Spring/comp 530/assignments/assign2/A2/530HW2/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named A2
+# Target rules for targets named 530HW2
 
 # Build rule for target.
-A2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 A2
-.PHONY : A2
+530HW2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 530HW2
+.PHONY : 530HW2
 
 # fast build rule for target.
-A2/fast:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/build
-.PHONY : A2/fast
+530HW2/fast:
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/build
+.PHONY : 530HW2/fast
 
 Main/BufferMgr/source/MyDB_BufferManager.o: Main/BufferMgr/source/MyDB_BufferManager.cc.o
 
@@ -129,7 +129,7 @@ Main/BufferMgr/source/MyDB_BufferManager.o: Main/BufferMgr/source/MyDB_BufferMan
 
 # target to build an object file
 Main/BufferMgr/source/MyDB_BufferManager.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o
 .PHONY : Main/BufferMgr/source/MyDB_BufferManager.cc.o
 
 Main/BufferMgr/source/MyDB_BufferManager.i: Main/BufferMgr/source/MyDB_BufferManager.cc.i
@@ -138,7 +138,7 @@ Main/BufferMgr/source/MyDB_BufferManager.i: Main/BufferMgr/source/MyDB_BufferMan
 
 # target to preprocess a source file
 Main/BufferMgr/source/MyDB_BufferManager.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.i
 .PHONY : Main/BufferMgr/source/MyDB_BufferManager.cc.i
 
 Main/BufferMgr/source/MyDB_BufferManager.s: Main/BufferMgr/source/MyDB_BufferManager.cc.s
@@ -147,7 +147,7 @@ Main/BufferMgr/source/MyDB_BufferManager.s: Main/BufferMgr/source/MyDB_BufferMan
 
 # target to generate assembly for a file
 Main/BufferMgr/source/MyDB_BufferManager.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.s
 .PHONY : Main/BufferMgr/source/MyDB_BufferManager.cc.s
 
 Main/BufferMgr/source/MyDB_Page.o: Main/BufferMgr/source/MyDB_Page.cc.o
@@ -156,7 +156,7 @@ Main/BufferMgr/source/MyDB_Page.o: Main/BufferMgr/source/MyDB_Page.cc.o
 
 # target to build an object file
 Main/BufferMgr/source/MyDB_Page.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/BufferMgr/source/MyDB_Page.cc.o
 .PHONY : Main/BufferMgr/source/MyDB_Page.cc.o
 
 Main/BufferMgr/source/MyDB_Page.i: Main/BufferMgr/source/MyDB_Page.cc.i
@@ -165,7 +165,7 @@ Main/BufferMgr/source/MyDB_Page.i: Main/BufferMgr/source/MyDB_Page.cc.i
 
 # target to preprocess a source file
 Main/BufferMgr/source/MyDB_Page.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/BufferMgr/source/MyDB_Page.cc.i
 .PHONY : Main/BufferMgr/source/MyDB_Page.cc.i
 
 Main/BufferMgr/source/MyDB_Page.s: Main/BufferMgr/source/MyDB_Page.cc.s
@@ -174,7 +174,7 @@ Main/BufferMgr/source/MyDB_Page.s: Main/BufferMgr/source/MyDB_Page.cc.s
 
 # target to generate assembly for a file
 Main/BufferMgr/source/MyDB_Page.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/BufferMgr/source/MyDB_Page.cc.s
 .PHONY : Main/BufferMgr/source/MyDB_Page.cc.s
 
 Main/Catalog/source/MyDB_Catalog.o: Main/Catalog/source/MyDB_Catalog.cc.o
@@ -183,7 +183,7 @@ Main/Catalog/source/MyDB_Catalog.o: Main/Catalog/source/MyDB_Catalog.cc.o
 
 # target to build an object file
 Main/Catalog/source/MyDB_Catalog.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Catalog/source/MyDB_Catalog.cc.o
 .PHONY : Main/Catalog/source/MyDB_Catalog.cc.o
 
 Main/Catalog/source/MyDB_Catalog.i: Main/Catalog/source/MyDB_Catalog.cc.i
@@ -192,7 +192,7 @@ Main/Catalog/source/MyDB_Catalog.i: Main/Catalog/source/MyDB_Catalog.cc.i
 
 # target to preprocess a source file
 Main/Catalog/source/MyDB_Catalog.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Catalog/source/MyDB_Catalog.cc.i
 .PHONY : Main/Catalog/source/MyDB_Catalog.cc.i
 
 Main/Catalog/source/MyDB_Catalog.s: Main/Catalog/source/MyDB_Catalog.cc.s
@@ -201,7 +201,7 @@ Main/Catalog/source/MyDB_Catalog.s: Main/Catalog/source/MyDB_Catalog.cc.s
 
 # target to generate assembly for a file
 Main/Catalog/source/MyDB_Catalog.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Catalog/source/MyDB_Catalog.cc.s
 .PHONY : Main/Catalog/source/MyDB_Catalog.cc.s
 
 Main/Catalog/source/MyDB_Schema.o: Main/Catalog/source/MyDB_Schema.cc.o
@@ -210,7 +210,7 @@ Main/Catalog/source/MyDB_Schema.o: Main/Catalog/source/MyDB_Schema.cc.o
 
 # target to build an object file
 Main/Catalog/source/MyDB_Schema.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Catalog/source/MyDB_Schema.cc.o
 .PHONY : Main/Catalog/source/MyDB_Schema.cc.o
 
 Main/Catalog/source/MyDB_Schema.i: Main/Catalog/source/MyDB_Schema.cc.i
@@ -219,7 +219,7 @@ Main/Catalog/source/MyDB_Schema.i: Main/Catalog/source/MyDB_Schema.cc.i
 
 # target to preprocess a source file
 Main/Catalog/source/MyDB_Schema.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Catalog/source/MyDB_Schema.cc.i
 .PHONY : Main/Catalog/source/MyDB_Schema.cc.i
 
 Main/Catalog/source/MyDB_Schema.s: Main/Catalog/source/MyDB_Schema.cc.s
@@ -228,7 +228,7 @@ Main/Catalog/source/MyDB_Schema.s: Main/Catalog/source/MyDB_Schema.cc.s
 
 # target to generate assembly for a file
 Main/Catalog/source/MyDB_Schema.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Catalog/source/MyDB_Schema.cc.s
 .PHONY : Main/Catalog/source/MyDB_Schema.cc.s
 
 Main/Catalog/source/MyDB_Table.o: Main/Catalog/source/MyDB_Table.cc.o
@@ -237,7 +237,7 @@ Main/Catalog/source/MyDB_Table.o: Main/Catalog/source/MyDB_Table.cc.o
 
 # target to build an object file
 Main/Catalog/source/MyDB_Table.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Catalog/source/MyDB_Table.cc.o
 .PHONY : Main/Catalog/source/MyDB_Table.cc.o
 
 Main/Catalog/source/MyDB_Table.i: Main/Catalog/source/MyDB_Table.cc.i
@@ -246,7 +246,7 @@ Main/Catalog/source/MyDB_Table.i: Main/Catalog/source/MyDB_Table.cc.i
 
 # target to preprocess a source file
 Main/Catalog/source/MyDB_Table.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Catalog/source/MyDB_Table.cc.i
 .PHONY : Main/Catalog/source/MyDB_Table.cc.i
 
 Main/Catalog/source/MyDB_Table.s: Main/Catalog/source/MyDB_Table.cc.s
@@ -255,7 +255,7 @@ Main/Catalog/source/MyDB_Table.s: Main/Catalog/source/MyDB_Table.cc.s
 
 # target to generate assembly for a file
 Main/Catalog/source/MyDB_Table.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Catalog/source/MyDB_Table.cc.s
 .PHONY : Main/Catalog/source/MyDB_Table.cc.s
 
 Main/DatabaseTable/source/MyDB_PageReaderWriter.o: Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o
@@ -264,7 +264,7 @@ Main/DatabaseTable/source/MyDB_PageReaderWriter.o: Main/DatabaseTable/source/MyD
 
 # target to build an object file
 Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o
 .PHONY : Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o
 
 Main/DatabaseTable/source/MyDB_PageReaderWriter.i: Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.i
@@ -273,7 +273,7 @@ Main/DatabaseTable/source/MyDB_PageReaderWriter.i: Main/DatabaseTable/source/MyD
 
 # target to preprocess a source file
 Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.i
 .PHONY : Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.i
 
 Main/DatabaseTable/source/MyDB_PageReaderWriter.s: Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s
@@ -282,7 +282,7 @@ Main/DatabaseTable/source/MyDB_PageReaderWriter.s: Main/DatabaseTable/source/MyD
 
 # target to generate assembly for a file
 Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s
 .PHONY : Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s
 
 Main/DatabaseTable/source/MyDB_PageRecIterator.o: Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o
@@ -291,7 +291,7 @@ Main/DatabaseTable/source/MyDB_PageRecIterator.o: Main/DatabaseTable/source/MyDB
 
 # target to build an object file
 Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o
 .PHONY : Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o
 
 Main/DatabaseTable/source/MyDB_PageRecIterator.i: Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i
@@ -300,7 +300,7 @@ Main/DatabaseTable/source/MyDB_PageRecIterator.i: Main/DatabaseTable/source/MyDB
 
 # target to preprocess a source file
 Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i
 .PHONY : Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i
 
 Main/DatabaseTable/source/MyDB_PageRecIterator.s: Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s
@@ -309,7 +309,7 @@ Main/DatabaseTable/source/MyDB_PageRecIterator.s: Main/DatabaseTable/source/MyDB
 
 # target to generate assembly for a file
 Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s
 .PHONY : Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s
 
 Main/DatabaseTable/source/MyDB_TableReaderWriter.o: Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o
@@ -318,7 +318,7 @@ Main/DatabaseTable/source/MyDB_TableReaderWriter.o: Main/DatabaseTable/source/My
 
 # target to build an object file
 Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o
 .PHONY : Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o
 
 Main/DatabaseTable/source/MyDB_TableReaderWriter.i: Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.i
@@ -327,7 +327,7 @@ Main/DatabaseTable/source/MyDB_TableReaderWriter.i: Main/DatabaseTable/source/My
 
 # target to preprocess a source file
 Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.i
 .PHONY : Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.i
 
 Main/DatabaseTable/source/MyDB_TableReaderWriter.s: Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s
@@ -336,7 +336,7 @@ Main/DatabaseTable/source/MyDB_TableReaderWriter.s: Main/DatabaseTable/source/My
 
 # target to generate assembly for a file
 Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s
 .PHONY : Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s
 
 Main/DatabaseTable/source/MyDB_TableRecIterator.o: Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o
@@ -345,7 +345,7 @@ Main/DatabaseTable/source/MyDB_TableRecIterator.o: Main/DatabaseTable/source/MyD
 
 # target to build an object file
 Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o
 .PHONY : Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o
 
 Main/DatabaseTable/source/MyDB_TableRecIterator.i: Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i
@@ -354,7 +354,7 @@ Main/DatabaseTable/source/MyDB_TableRecIterator.i: Main/DatabaseTable/source/MyD
 
 # target to preprocess a source file
 Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i
 .PHONY : Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i
 
 Main/DatabaseTable/source/MyDB_TableRecIterator.s: Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s
@@ -363,7 +363,7 @@ Main/DatabaseTable/source/MyDB_TableRecIterator.s: Main/DatabaseTable/source/MyD
 
 # target to generate assembly for a file
 Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s
 .PHONY : Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s
 
 Main/Record/source/MyDB_AttVal.o: Main/Record/source/MyDB_AttVal.cc.o
@@ -372,7 +372,7 @@ Main/Record/source/MyDB_AttVal.o: Main/Record/source/MyDB_AttVal.cc.o
 
 # target to build an object file
 Main/Record/source/MyDB_AttVal.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Record/source/MyDB_AttVal.cc.o
 .PHONY : Main/Record/source/MyDB_AttVal.cc.o
 
 Main/Record/source/MyDB_AttVal.i: Main/Record/source/MyDB_AttVal.cc.i
@@ -381,7 +381,7 @@ Main/Record/source/MyDB_AttVal.i: Main/Record/source/MyDB_AttVal.cc.i
 
 # target to preprocess a source file
 Main/Record/source/MyDB_AttVal.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Record/source/MyDB_AttVal.cc.i
 .PHONY : Main/Record/source/MyDB_AttVal.cc.i
 
 Main/Record/source/MyDB_AttVal.s: Main/Record/source/MyDB_AttVal.cc.s
@@ -390,7 +390,7 @@ Main/Record/source/MyDB_AttVal.s: Main/Record/source/MyDB_AttVal.cc.s
 
 # target to generate assembly for a file
 Main/Record/source/MyDB_AttVal.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Record/source/MyDB_AttVal.cc.s
 .PHONY : Main/Record/source/MyDB_AttVal.cc.s
 
 Main/Record/source/MyDB_Record.o: Main/Record/source/MyDB_Record.cc.o
@@ -399,7 +399,7 @@ Main/Record/source/MyDB_Record.o: Main/Record/source/MyDB_Record.cc.o
 
 # target to build an object file
 Main/Record/source/MyDB_Record.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Record/source/MyDB_Record.cc.o
 .PHONY : Main/Record/source/MyDB_Record.cc.o
 
 Main/Record/source/MyDB_Record.i: Main/Record/source/MyDB_Record.cc.i
@@ -408,7 +408,7 @@ Main/Record/source/MyDB_Record.i: Main/Record/source/MyDB_Record.cc.i
 
 # target to preprocess a source file
 Main/Record/source/MyDB_Record.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Record/source/MyDB_Record.cc.i
 .PHONY : Main/Record/source/MyDB_Record.cc.i
 
 Main/Record/source/MyDB_Record.s: Main/Record/source/MyDB_Record.cc.s
@@ -417,7 +417,7 @@ Main/Record/source/MyDB_Record.s: Main/Record/source/MyDB_Record.cc.s
 
 # target to generate assembly for a file
 Main/Record/source/MyDB_Record.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/Record/source/MyDB_Record.cc.s
 .PHONY : Main/Record/source/MyDB_Record.cc.s
 
 Main/RecordTest/source/RecordQUnit.o: Main/RecordTest/source/RecordQUnit.cc.o
@@ -426,7 +426,7 @@ Main/RecordTest/source/RecordQUnit.o: Main/RecordTest/source/RecordQUnit.cc.o
 
 # target to build an object file
 Main/RecordTest/source/RecordQUnit.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/RecordTest/source/RecordQUnit.cc.o
 .PHONY : Main/RecordTest/source/RecordQUnit.cc.o
 
 Main/RecordTest/source/RecordQUnit.i: Main/RecordTest/source/RecordQUnit.cc.i
@@ -435,7 +435,7 @@ Main/RecordTest/source/RecordQUnit.i: Main/RecordTest/source/RecordQUnit.cc.i
 
 # target to preprocess a source file
 Main/RecordTest/source/RecordQUnit.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.i
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/RecordTest/source/RecordQUnit.cc.i
 .PHONY : Main/RecordTest/source/RecordQUnit.cc.i
 
 Main/RecordTest/source/RecordQUnit.s: Main/RecordTest/source/RecordQUnit.cc.s
@@ -444,7 +444,7 @@ Main/RecordTest/source/RecordQUnit.s: Main/RecordTest/source/RecordQUnit.cc.s
 
 # target to generate assembly for a file
 Main/RecordTest/source/RecordQUnit.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.s
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/Main/RecordTest/source/RecordQUnit.cc.s
 .PHONY : Main/RecordTest/source/RecordQUnit.cc.s
 
 # Help Target
@@ -455,7 +455,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... A2"
+	@echo "... 530HW2"
 	@echo "... Main/BufferMgr/source/MyDB_BufferManager.o"
 	@echo "... Main/BufferMgr/source/MyDB_BufferManager.i"
 	@echo "... Main/BufferMgr/source/MyDB_BufferManager.s"

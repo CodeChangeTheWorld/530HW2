@@ -54,45 +54,45 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/liufang/Documents/Courses/comp530/530HW2
+CMAKE_SOURCE_DIR = "/Users/cj/Documents/17 Spring/comp 530/assignments/assign2/A2/530HW2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/cj/Documents/17 Spring/comp 530/assignments/assign2/A2/530HW2/cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/A2.dir
+# Target rules for target CMakeFiles/530HW2.dir
 
 # All Build rule for target.
-CMakeFiles/A2.dir/all:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/depend
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target A2"
-.PHONY : CMakeFiles/A2.dir/all
+CMakeFiles/530HW2.dir/all:
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/depend
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/cj/Documents/17 Spring/comp 530/assignments/assign2/A2/530HW2/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target 530HW2"
+.PHONY : CMakeFiles/530HW2.dir/all
 
 # Include target in all.
-all: CMakeFiles/A2.dir/all
+all: CMakeFiles/530HW2.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/A2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles 13
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/A2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liufang/Documents/Courses/comp530/530HW2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/A2.dir/rule
+CMakeFiles/530HW2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/cj/Documents/17 Spring/comp 530/assignments/assign2/A2/530HW2/cmake-build-debug/CMakeFiles" 13
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/530HW2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/cj/Documents/17 Spring/comp 530/assignments/assign2/A2/530HW2/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/530HW2.dir/rule
 
 # Convenience name for target.
-A2: CMakeFiles/A2.dir/rule
+530HW2: CMakeFiles/530HW2.dir/rule
 
-.PHONY : A2
-
-# clean rule for target.
-CMakeFiles/A2.dir/clean:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/clean
-.PHONY : CMakeFiles/A2.dir/clean
+.PHONY : 530HW2
 
 # clean rule for target.
-clean: CMakeFiles/A2.dir/clean
+CMakeFiles/530HW2.dir/clean:
+	$(MAKE) -f CMakeFiles/530HW2.dir/build.make CMakeFiles/530HW2.dir/clean
+.PHONY : CMakeFiles/530HW2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/530HW2.dir/clean
 
 .PHONY : clean
 

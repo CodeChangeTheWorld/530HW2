@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
-project(A2)
+project(530HW2)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -12,7 +12,7 @@ set(SOURCE_FILES
         Main/BufferMgr/headers/TableCompare.h
         Main/BufferMgr/source/MyDB_BufferManager.cc
         Main/BufferMgr/source/MyDB_Page.cc
-        #Main/BufferTest/source/BufferQUnit.cc
+        #        Main/BufferTest/source/BufferQUnit.cc
         Main/Catalog/headers/MyDB_AttType.h
         Main/Catalog/headers/MyDB_Catalog.h
         Main/Catalog/headers/MyDB_PageType.h
@@ -26,14 +26,14 @@ set(SOURCE_FILES
         Main/DatabaseTable/headers/MyDB_TableReaderWriter.h
         Main/DatabaseTable/source/MyDB_PageReaderWriter.cc
         Main/DatabaseTable/source/MyDB_TableReaderWriter.cc
+        Main/DatabaseTable/source/MyDB_TableRecIterator.cc
+        Main/DatabaseTable/headers/MyDB_TableRecIterator.h
         Main/Qunit/headers/QUnit.h
         Main/Record/headers/MyDB_AttVal.h
         Main/Record/headers/MyDB_Record.h
         Main/Record/source/MyDB_AttVal.cc
         Main/Record/source/MyDB_Record.cc
         Main/RecordTest/source/RecordQUnit.cc
-        Main/DatabaseTable/headers/MyDB_TableRecIterator.h
-        Main/DatabaseTable/source/MyDB_TableRecIterator.cc
         Main/DatabaseTable/headers/MyDB_PageRecIterator.h
         Main/DatabaseTable/source/MyDB_PageRecIterator.cc)
 
@@ -42,7 +42,6 @@ include_directories(
         Main/Catalog/headers
         Main/DatabaseTable/headers
         Main/Qunit/headers
-        Main/Record/headers
-)
+        Main/Record/headers)
 
-add_executable(A2 ${SOURCE_FILES})
+add_executable(530HW2 ${SOURCE_FILES})
