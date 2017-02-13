@@ -41,7 +41,16 @@ void MyDB_TableRecIterator::getNext(){
 
 bool MyDB_TableRecIterator::hasNext(){
 //    if( tableRw->operator[](curPageID) == tableRw->last()->)
-    if(curPageID == tableRw->getLastPageID() && (!pageIt->hasNext())){
+    while(!pageIt->hasNext()){
+        curPageID++;
+        if(curPageID <= tableRw->getLastPageID()){
+            pageIt= (tableRw->operator[](curPageID)).getIterator(currentRecord);
+        }
+        else{
+            break;
+        }
+    }
+    if(curPageID > tableRw->getLastPageID()){
         return  false;
     }
     return true;
