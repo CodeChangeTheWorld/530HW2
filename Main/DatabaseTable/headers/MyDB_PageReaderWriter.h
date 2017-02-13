@@ -22,7 +22,7 @@ class MyDB_PageReaderWriter {
 public:
 
 	// ANY OTHER METHODS YOU WANT HERE
-	MyDB_PageReaderWriter(MyDB_PageHandle handle, size_t pageSize);
+	MyDB_PageReaderWriter(MyDB_PageHandle handle, size_t pageSize, bool firsttime);
 
 
     // empties out the contents of this page, so that it has no records in it
@@ -45,6 +45,16 @@ public:
 	// sets the type of the page
 	void setType (MyDB_PageType toMe);
 	int getPageSize();
+
+	void* gethead(){
+		return head;
+	}
+	void* getbegin(){
+		return ((char*)head) + HEADER_SIZE;
+	}
+	size_t offset(){
+		return GET_OFFSET_UNTIL_END(head);
+	}
 
 private:
 	// ANYTHING ELSE YOU WANT HERE

@@ -17,7 +17,7 @@ MyDB_TableReaderWriter :: MyDB_TableReaderWriter (MyDB_TablePtr toMe, MyDB_Buffe
 	me = toMe;
 	mybuffer = bufferManager;
     for(long i = 0; i <= me->lastPage(); i++){
-        pagerwvec.push_back(MyDB_PageReaderWriter(mybuffer->getPage(me,i), mybuffer->getPageSize()));
+        pagerwvec.push_back(MyDB_PageReaderWriter(mybuffer->getPage(me,i), mybuffer->getPageSize(), false));
     }
 }
 
@@ -41,7 +41,7 @@ MyDB_PageReaderWriter &MyDB_TableReaderWriter :: last () {
 //    return this->operator[](long(me->lastPage()));
     if(me->lastPage() == -1){
         me->setLastPage(0);
-        pagerwvec.push_back(MyDB_PageReaderWriter(mybuffer->getPage(me,0), mybuffer->getPageSize()));
+        pagerwvec.push_back(MyDB_PageReaderWriter(mybuffer->getPage(me,0), mybuffer->getPageSize(), true));
     }
     return this->operator[](long(me->lastPage()));
 }
@@ -50,7 +50,7 @@ MyDB_PageReaderWriter &MyDB_TableReaderWriter :: last () {
 void MyDB_TableReaderWriter :: append (MyDB_RecordPtr record) {
 	if(!last().append(record)){
 		me->setLastPage(me->lastPage()+1);
-        pagerwvec.push_back(MyDB_PageReaderWriter(mybuffer->getPage(me,me->lastPage()), mybuffer->getPageSize()));
+        pagerwvec.push_back(MyDB_PageReaderWriter(mybuffer->getPage(me,me->lastPage()), mybuffer->getPageSize(), true));
 //		MyDB_PageReaderWriter pagerw= this->operator[](long(me->lastPage()));
 //		pagerw.append(record);
         this->operator[](long(me->lastPage())).append(record);

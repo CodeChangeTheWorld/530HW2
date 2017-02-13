@@ -10,9 +10,9 @@ void MyDB_PageReaderWriter :: clear () {
     GET_OFFSET_UNTIL_END(head) = HEADER_SIZE;
     cursor = ((char*)head) + GET_OFFSET_UNTIL_END(head);
     pageHandle->wroteBytes();
-    std::cout<<(char*)cursor - (char*)head<<endl;
-    std::cout<<GET_OFFSET_UNTIL_END(head)<<endl;
-    std::cout<<"locB::"<<&head<<endl;
+//    std::cout<<(char*)cursor - (char*)head<<endl;
+//    std::cout<<GET_OFFSET_UNTIL_END(head)<<endl;
+//    std::cout<<"locB::"<<&head<<endl;
 }
 
 MyDB_PageType MyDB_PageReaderWriter :: getType () {
@@ -20,7 +20,9 @@ MyDB_PageType MyDB_PageReaderWriter :: getType () {
 }
 
 MyDB_RecordIteratorPtr MyDB_PageReaderWriter :: getIterator(MyDB_RecordPtr rec) {
-    return make_shared<MyDB_PageRecIterator>(rec, pageHandle);
+    head = pageHandle->getBytes();
+    cursor = ((char*)head) + GET_OFFSET_UNTIL_END(head);
+    return make_shared<MyDB_PageRecIterator>(rec, this);
 //    return make_shared<MyDB_PageRecIterator>(rec, this);
 }
 
@@ -43,11 +45,11 @@ bool MyDB_PageReaderWriter :: append (MyDB_RecordPtr newrec) {
     pageHandle->wroteBytes();
 	return true;
 }
-MyDB_PageReaderWriter::MyDB_PageReaderWriter(MyDB_PageHandle pageHandle, size_t pageSize){
+MyDB_PageReaderWriter::MyDB_PageReaderWriter(MyDB_PageHandle pageHandle, size_t pageSize, bool first){
 	this->pageHandle = pageHandle;
     this->pageSize = pageSize;
     head = pageHandle->getBytes();
-    GET_OFFSET_UNTIL_END (head) = HEADER_SIZE;
+    if(first) GET_OFFSET_UNTIL_END (head) = HEADER_SIZE;
     cursor = ((char*)head) + GET_OFFSET_UNTIL_END(head);
     //head = ((char*)head) + HEADER_SIZE;
 }
