@@ -26,6 +26,7 @@ public:
 
 private:
     void* cursor;
+    void* head;
     MyDB_RecordPtr currentRec;
     MyDB_PageReaderWriter* pgrw;
 };
