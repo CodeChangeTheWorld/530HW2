@@ -12,7 +12,7 @@ void MyDB_PageReaderWriter :: clear () {
     pageHandle->wroteBytes();
     std::cout<<(char*)cursor - (char*)head<<endl;
     std::cout<<GET_OFFSET_UNTIL_END(head)<<endl;
-    std::cout<<"locB::"<<&head<<endl;
+    std::cout<<"locB::"<<head<<endl;
 }
 
 MyDB_PageType MyDB_PageReaderWriter :: getType () {
@@ -20,8 +20,8 @@ MyDB_PageType MyDB_PageReaderWriter :: getType () {
 }
 
 MyDB_RecordIteratorPtr MyDB_PageReaderWriter :: getIterator(MyDB_RecordPtr rec) {
-    return make_shared<MyDB_PageRecIterator>(rec, pageHandle);
-//    return make_shared<MyDB_PageRecIterator>(rec, this);
+//    return make_shared<MyDB_PageRecIterator>(rec, pageHandle);
+    return make_shared<MyDB_PageRecIterator>(rec, this);
 }
 
 void MyDB_PageReaderWriter :: setType (MyDB_PageType) {

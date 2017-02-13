@@ -113,7 +113,7 @@ int main () {
 		int counter = 0;
 		while (myIter->hasNext ()) {
 			myIter->getNext ();
-			//cout << temp << "\n";
+			cout << temp << "\n";
 			counter++;
 	 	}
 		QUNIT_IS_EQUAL (counter, 10000);

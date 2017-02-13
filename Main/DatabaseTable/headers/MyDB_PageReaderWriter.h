@@ -46,6 +46,19 @@ public:
 	void setType (MyDB_PageType toMe);
 	int getPageSize();
 
+	void * gethead(){
+		return ((char*)head) + HEADER_SIZE;
+	}
+
+	void * realhead(){
+		return head;
+	}
+
+	size_t getoffset(){
+		return GET_OFFSET_UNTIL_END(head);
+	}
+
+
 private:
 	// ANYTHING ELSE YOU WANT HERE
 	MyDB_BufferManagerPtr bufManager;
